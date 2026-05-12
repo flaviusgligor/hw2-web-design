@@ -1,0 +1,4 @@
+Paragraph A are stilurile de la p- culoare gri, font georgia si font size
+Paragraph B are stilurile de la p si de la clasa .info care suprascrie culoarea si fontul 
+Paragraph C are stilurile de la p si de la #warning, id-ul suprascrie pentru ca are specificitate mai mare
+Paragraph D primeste stilurile de la toate p, .info, #warning si #warning.info

@@ -1,0 +1,86 @@
+body {
+    background-color: #8ea6c8; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: #333;
+    margin: 10px 0 5px 0;
+    font-size: 1.8rem;
+}
+
+a {
+    text-decoration: none;
+    color: #aa5f08; 
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+
+
+
+.card-container {
+    background-color: white;
+    width: 350px;
+    padding: 40px;
+    border-radius: 20px; 
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15); 
+    text-align: center;
+}
+
+.card-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-bottom: 10px;
+}
+
+.specialization {
+    color: #777;
+    font-size: 1rem;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #eee; 
+    padding-bottom: 20px;
+}
+
+.links-section {
+    margin-top: 15px;
+}
+
+
+
+
+#main-card {
+    border-top: 6px solid #190b22; 
+}
+
+#profile-img {
+    border: 4px solid #f8f5ff; 
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #6a1b9a;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}

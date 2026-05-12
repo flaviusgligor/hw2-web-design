@@ -1,0 +1,716 @@
+/* Frame 1 */
+
+position: relative;
+width: 1440px;
+height: 900px;
+
+
+
+/* Rectangle 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1440px;
+height: 900px;
+left: 0px;
+top: 0px;
+
+background: url(Backgrround.jpg);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 1200px;
+height: 700px;
+left: 129px;
+top: 102px;
+
+background: rgba(34, 43, 89, 0.63);
+
+
+/* Rectangle 3 */
+
+position: absolute;
+width: 600px;
+height: 700px;
+left: 729px;
+top: 100px;
+
+background: #FFFFFF;
+
+
+/* The place where you want to be */
+
+position: absolute;
+width: 500px;
+height: 129px;
+left: 186px;
+top: 714px;
+
+/* Body */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 25px;
+line-height: 100px;
+/* or 400% */
+text-align: center;
+
+color: #ACA7DA;
+
+
+
+/* Wave */
+
+position: absolute;
+width: 1200px;
+height: 162.94px;
+left: 129px;
+top: 637px;
+
+
+
+/* Vector */
+
+position: absolute;
+width: 1200px;
+height: 162.94px;
+left: 129px;
+top: 637px;
+
+background: rgba(49, 39, 102, 0.14);
+
+
+/* Vector */
+
+position: absolute;
+width: 1200px;
+height: 43.06px;
+left: 129px;
+top: 637px;
+
+border: 2px solid rgba(122, 111, 163, 0.25);
+
+
+/* Vector */
+
+position: absolute;
+width: 1200px;
+height: 122.03px;
+left: 129px;
+top: 677.91px;
+
+background: rgba(49, 39, 102, 0.14);
+
+
+/* Vector */
+
+position: absolute;
+width: 1200px;
+height: 30.51px;
+left: 129px;
+top: 677.91px;
+
+border: 2px solid rgba(122, 111, 163, 0.25);
+
+
+/* Vector */
+
+position: absolute;
+width: 1200px;
+height: 108.68px;
+left: 129px;
+top: 691.26px;
+
+background: rgba(49, 39, 102, 0.14);
+
+
+/* Vector */
+
+position: absolute;
+width: 1200px;
+height: 45.96px;
+left: 129px;
+top: 691.26px;
+
+border: 2px solid rgba(122, 111, 163, 0.25);
+
+
+/* Login */
+
+position: absolute;
+width: 382px;
+height: 184px;
+left: 838px;
+top: 153px;
+
+/* Heading */
+font-family: 'Inter';
+font-style: italic;
+font-weight: 300;
+font-size: 64px;
+line-height: 77px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #1D1C1C;
+
+
+
+/* Rectangle 4 */
+
+position: absolute;
+width: 462px;
+height: 2px;
+left: 809px;
+top: 422px;
+
+background: #1E1E1E;
+
+
+/* Rectangle 5 */
+
+position: absolute;
+width: 462px;
+height: 2px;
+left: 809px;
+top: 510px;
+
+background: #1E1E1E;
+
+
+/* Lock
+
+Keywords: security, password, secure
+*/
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 809px;
+top: 472px;
+
+background: rgba(255, 255, 255, 0.8);
+
+
+/* Icon */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 4px solid #1E1E1E;
+
+
+/* Nume Utilizator: */
+
+position: absolute;
+width: 299px;
+height: 42px;
+left: 809px;
+top: 372px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+
+color: rgba(0, 0, 0, 0.7);
+
+
+
+/* Parola: */
+
+position: absolute;
+width: 235px;
+height: 42px;
+left: 809px;
+top: 451px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+
+color: rgba(0, 0, 0, 0.8);
+
+
+
+/* User */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 808px;
+top: 392px;
+
+
+
+/* Icon */
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 12.5%;
+bottom: 12.5%;
+
+border: 3px solid #1E1E1E;
+
+
+/* Don’t have an account? */
+
+position: absolute;
+width: 285px;
+height: 29px;
+left: 808px;
+top: 529px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+
+color: #000000;
+
+
+
+/* Sign up* */
+
+position: absolute;
+width: 194px;
+height: 15px;
+left: 947px;
+top: 529px;
+
+
+
+/* Sign up* */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+color: #024756;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Remember me: */
+
+position: absolute;
+width: 284px;
+height: 22px;
+left: 1156px;
+top: 529px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+
+color: #000000;
+
+
+
+/* Forgot your password? */
+
+position: absolute;
+width: 299px;
+height: 53px;
+left: 809px;
+top: 558px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+
+color: #000000;
+
+
+
+/* Reset your password* */
+
+position: absolute;
+width: 200px;
+height: 48px;
+left: 951px;
+top: 558px;
+
+
+
+/* Reset your password* */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+
+color: #024756;
+
+
+
+/* Rectangle 6 */
+
+position: absolute;
+width: 367px;
+height: 53px;
+left: 839px;
+top: 593px;
+
+background: #FFFFFF;
+
+
+/* Rectangle 6 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(103, 99, 159, 0.65);
+
+
+/* Login */
+
+position: absolute;
+width: 311px;
+height: 31px;
+left: 866px;
+top: 606px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 30px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+
+/* Hello There! */
+
+position: absolute;
+width: 447px;
+height: 213px;
+left: 212px;
+top: 180px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* We are number 1 globally in cybersecurity services */
+
+position: absolute;
+width: 408px;
+height: 200px;
+left: 220px;
+top: 353px;
+
+/* Body */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 25px;
+line-height: 100px;
+/* or 400% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 6 */
+
+position: absolute;
+width: 367px;
+height: 53px;
+left: 839px;
+top: 666px;
+
+background: #FFFFFF;
+
+
+/* Rectangle 6 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(103, 99, 159, 0.65);
+
+
+/* Sign in with */
+
+position: absolute;
+width: 311px;
+height: 30px;
+left: 866px;
+top: 676px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Instagram
+
+Keywords: logo, camera
+*/
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 1106px;
+top: 678px;
+
+
+
+/* Icon */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 4px solid #1E1E1E;
+
+
+/* Facebook */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 1141px;
+top: 678px;
+
+
+
+/* Icon */
+
+position: absolute;
+left: 29.17%;
+right: 25%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 3px solid #1E1E1E;
+
+
+/* Github */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 1176px;
+top: 678px;
+
+
+
+/* Icon */
+
+position: absolute;
+left: 8.33%;
+right: 10.42%;
+top: 4.06%;
+bottom: 8.33%;
+
+border: 2.5px solid #1E1E1E;
+
+
+/* Eye off */
+
+position: absolute;
+width: 67px;
+height: 47px;
+left: 1220px;
+top: 463px;
+
+border-radius: 5px;
+
+
+/* Property 1=Default */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 20px;
+top: 20px;
+
+
+
+/* Eye off */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Icon */
+
+position: absolute;
+left: 4.17%;
+right: 4.17%;
+top: 4.17%;
+bottom: 4.17%;
+
+border: 3.5px solid #1E1E1E;
+
+
+/* Property 1=Variant2 */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 20px;
+top: 20px;
+
+
+
+/* Eye */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Icon */
+
+position: absolute;
+left: 4.17%;
+right: 4.17%;
+top: 16.67%;
+bottom: 16.67%;
+
+border: 3.5px solid #1E1E1E;
+
+
+/* check_box_outline_blank */
+
+position: absolute;
+width: 64px;
+height: 108px;
+left: 1224px;
+top: 503px;
+
+border-radius: 5px;
+
+
+/* Property 1=Default */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 20px;
+top: 20px;
+
+
+
+/* check_box_outline_blank */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* icon */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* M3/sys/light/on-surface */
+background: #1D1B20;
+
+
+/* Property 1=Variant2 */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 20px;
+top: 20px;
+
+
+
+/* check_box */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* icon */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* M3/sys/light/on-surface */
+background: #1D1B20;

@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 20px;
+}
+
+header {
+    grid-column: 1 / 3;
+    background-color: #032e4791;
+    color: white;
+    padding: 15px;
+}
+
+aside {
+    background-color: #035555;
+    padding: 15px;
+}
+
+main {
+    padding: 10px;
+}
+
+main h2 {
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+
+.abilitati {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.abilitati span {
+    background-color: #ddeeff;
+    padding: 5px 10px;
+    border: 1px solid #99aacc;
+}
+
+.carduri {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.card {
+    border: 1px solid #cccccca1;
+    padding: 10px;
+
+    min-height: 120px;
+}
+
+.special {
+    background-color: #fffacd;
+    border-color: #ccaa00;
+}
+
+@media (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    header {
+        grid-column: 1;
+    }
+
+    .carduri {
+        grid-template-columns: 1fr;
+    }
+}
+/**/
+nav {
+    background-color: #010b14;
+    padding: 10px;
+}
+
+nav a{
+    color: white;
+    text-decoration: dashed;
+    margin-right: 15px;
+    font-size: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: aqua;
+}
+
+footer {
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.card:hover{
+    background-color: #99aacc;
+    
+}
