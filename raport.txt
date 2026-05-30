@@ -1,0 +1,49 @@
+AM rulat lighthouse pe urmatoarele:
+
+index.html
+Performance: 100
+Accessibility: 100
+Best practices : 77
+SEO: 90
+
+despre.html
+Performance: 100
+Accesibility: 100
+Best practices: 77
+SEO: 90
+
+cv.html
+Performance:  100
+Accesibility: 91
+Best practices: 77
+SEO: 90
+
+contact.html
+Performance: 100
+Accesibility: 93
+Best practices: 77 
+SEO: 90
+
+overview.html
+Performance: 100
+Accesibility: 83
+Best practices: 77
+SEO: 90
+
+chatbot.html
+Performance: 100
+Accesibility: 81
+Best practices: 77
+SEO: 90
+
+card.html
+Performance: 100
+Accesibility: 87
+Best practices: 77
+SEO: 91
+
+portofolio.html
+Performance: 100
+Accesibility: 93
+Best practices: 73
+SEO: 90
