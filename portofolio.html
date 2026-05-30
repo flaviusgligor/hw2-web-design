@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofoliu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-image: url('fundal.jpg');
+ background-attachment: fixed;
+  background-size: cover;
+   background-position: center;
+    background-repeat: no-repeat;">
+   <a href="#projectForm" class="skip-link">Sari la conținut principal</a>
+
+    <nav>
+        <a href="index.html">Acasa</a>
+        <a href="despre.html">Despre mine</a>
+        <a href="cv.html">Tabel CV</a>
+        <a href="contact.html">Contact</a>
+        <a href="overview.html">Overview</a>
+        <a href="chatbot.html">Chatbot</a>
+        <a href="card.html">Card</a>
+    </nav>
+
+    <form id="projectForm" novalidate style="max-width: 500px; margin: 20px auto;">
+      <fieldset>
+        <legend><b>Adauga Proiect Nou</b></legend>
+
+        <div style="margin-bottom: 15px;">
+          <label for="pName">Nume Proiect:</label><br>
+          <input type="text" id="pName" required aria-describedby="pNameError" style="width: 100%;">
+          <span id="pNameError" style="color: red; font-size: 0.9rem;"></span>
+        </div>
+
+        <div style="margin-bottom: 15px;">
+          <label for="pDesc">Descriere (minim 10 litere):</label><br>
+          <textarea id="pDesc" required style="width: 100%;"></textarea>
+          <span id="pDescError" style="color: red; font-size: 0.9rem;"></span>
+        </div>
+
+        <div style="margin-bottom: 15px;">
+          <label for="pUrl">Link Proiect (URL):</label><br>
+          <input type="url" id="pUrl" required placeholder="https://example.com" style="width: 100%;">
+          <span id="pUrlError" style="color: red; font-size: 0.9rem;"></span>
+        </div>
+
+        <div style="margin-bottom: 15px;">
+          <label for="pTech">Tehnologie:</label><br>
+          <select id="pTech" style="width: 100%;">
+            <option value="">-- Alege --</option>
+            <option value="HTML/CSS">HTML / CSS</option>
+            <option value="JavaScript">JavaScript</option>
+          </select>
+          <span id="pTechError" style="color: red; font-size: 0.9rem;"></span>
+        </div>
+
+        <div style="margin-bottom: 15px;">
+          <label for="pDate">Data Finalizării:</label><br>
+          <input type="date" id="pDate" style="width: 100%;">
+          <span id="pDateError" style="color: red; font-size: 0.9rem;"></span>
+        </div>
+
+        <button type="submit">Salvează Proiectul</button>
+        <button type="reset">Resetează</button>
+      </fieldset>
+    </form>
+
+    <div style="width: 100%; overflow-x: auto; margin-top: 30px;">
+      <table id="projectsTable" border="1" style="width: 100%; border-collapse: collapse;">
+        <caption><b>Proiectele Mele Salvate</b></caption>
+        <thead>
+          <tr style="background-color: #f2f2f2;">
+            <th scope="col">Nume</th>
+            <th scope="col">Descriere</th>
+            <th scope="col">Link</th>
+            <th scope="col">Tehnologie</th>
+            <th scope="col">Data</th>
+          </tr>
+        </thead>
+        <tbody>
+          </tbody>
+      </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
